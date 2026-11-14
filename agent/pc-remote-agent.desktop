@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=PC Remote agent
+Comment=Lets the PC Remote Android app control this PC over Wi-Fi
+# Copy this file to ~/.config/autostart/ and fix the path below.
+Exec=python3 /path/to/pc-remote/agent/pc-remote-agent.py
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
